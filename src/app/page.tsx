@@ -1,14 +1,8 @@
 'use client'
 
-import clsx from "clsx";
-import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 import { BiSolidHome } from "react-icons/bi";
-import { FaPlus } from "react-icons/fa";
-import { IoIosSearch } from "react-icons/io";
 import { IoPricetag } from "react-icons/io5";
-import { RiHome5Fill, RiPriceTag2Fill } from "react-icons/ri";
 
 const links = [
   {

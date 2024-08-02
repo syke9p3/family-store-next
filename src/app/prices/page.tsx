@@ -232,7 +232,7 @@ export default function Page() {
                     )
                 }
             </section>
-            <section id="footer" className="absolute bottom-0 bg-white border w-full p-3 shadow-sm">
+            <section id="footer" className="fixed bottom-0 bg-white border w-full p-3 shadow-sm">
                 <button className="border cursor-pointer rounded-md p-3 flex justify-center items-center gap-1 text-blue-500 bg-white w-full">
                     <p className="text-xs">
                         <FaPlus />
