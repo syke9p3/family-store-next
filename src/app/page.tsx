@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from "./ui/prices/navbar";
+import { ListSkeleton } from "./ui/skeleton";
 
 
 export default function Page() {
