@@ -45,13 +45,14 @@ const SidebarMenu = () => {
                     onClick={() => setOpen(false)}>
                     <GiHamburgerMenu />
                 </HeaderButton>
+                {/* Avatar */}
                 <div className='p-4 flex gap-3 items-center'>
                     <img
                         className='rounded-full'
-                        width={64} height={64} src="https://avatars.githubusercontent.com/u/75114627?v=4" alt="" />
+                        width={64} height={64} src="https://secure.gravatar.com/avatar/c7e4dfc57db82e4e413560089b7edaa4?d=https://www.dualsport-sd.com/forums/uploads/monthly_2018_02/F_member_2812.png" alt="" />
                     <div>
-                        <h3 className='font-bold'>Kenth Saya-ang</h3>
-                        <p className='text-xs opacity-70'>kgsayaang@gmail.com</p>
+                        <h3 className='font-bold'>Family Store</h3>
+                        <p className='text-xs opacity-70'>familystore@gmail.com</p>
                     </div>
                 </div>
                 <SidebarMenuItems />
