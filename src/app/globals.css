@@ -8,3 +8,7 @@
     text-wrap: balance;
   }
 }
+
+.animate {
+  @apply transition-all duration-150 ease-in-out;
+}
