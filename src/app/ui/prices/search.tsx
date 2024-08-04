@@ -30,7 +30,7 @@ const Search = ({ query, }: SearchProps) => {
 
     return (
         <>
-            {/* Search */}
+            {/* Search Bar*/}
             <div className="border rounded-md flex items-center">
                 <button className="px-3 border-r-[1px]">
                     <IoIosSearch />
