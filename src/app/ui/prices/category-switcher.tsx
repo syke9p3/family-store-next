@@ -18,7 +18,7 @@ const CategorySwitcher = ({
     }
 
     return (
-        <div className="pt-2 pb-4 px-3 overflow-x-scroll min-h-[4rem]">
+        <div className="pt-2 pb-4 px-6 overflow-x-scroll min-h-[4rem]">
             <ul id="categories" className="text-xs flex gap-1 bg-white">
                 <button
                     onClick={() => handleCategoryChange("")}
