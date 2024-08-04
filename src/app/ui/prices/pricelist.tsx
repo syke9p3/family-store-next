@@ -66,8 +66,8 @@ const Pricelist = ({
     return (
         <>
             {filteredItems.length > 0 ? filteredItems.map((item, i) => (
-                <Link href={`/prices/${item.id}`}>
-                    <li key={i} className="hover:bg-gray-100 cursor-pointer p-3 flex justify-between bg-white /items-center">
+                <Link key={i} href={`/prices/${item.id}`}>
+                    <li className="hover:bg-gray-100 cursor-pointer p-3 flex justify-between bg-white /items-center">
                         <div>
                             <p className="text-sm">{item.name}</p>
                             <p className="text-xs text-gray-500">{categoryIdToName(item.category_id)}</p>
